@@ -5,15 +5,7 @@ frontend and can perform server-side rendering (SSR).
 
 ## Another Boilerplate?
 
-Yes, but with Java. It's inspired by the
-[spring-react-isomorphic](https://github.com/sdeleuze/spring-react-isomorphic)
-project, but at this point has been largely rebuilt from the ground up. The
-frontend is build on
-[create-react-app](https://github.com/facebookincubator/create-react-app)
-(CRA), though it was necessary to "eject" from CRA in order to apply some
-changes for server.
-
-The project also uses:
+The project uses:
 
 - [Yarn](https://yarnpkg.com/) for installing Node modules.
 - [Babel](https://babeljs.io/) for transpiling the server-side render function.
